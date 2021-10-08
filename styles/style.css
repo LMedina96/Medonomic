@@ -1,0 +1,36 @@
+*{
+    box-sizing: border-box;
+}
+
+form{
+    position: relative;
+    text-align: center;
+    background-color: lightgray;
+    margin: 0 auto;
+    width: 80vw;
+    padding: 3rem;
+    border-radius: 3px;
+}
+
+label, input{
+    display: inline-block;
+    min-width: 200px;
+}
+
+input{
+    margin-bottom: 2rem;
+}
+
+.wrong{
+    position: absolute;
+}
+
+.user{
+    top: 70px;
+    left: 420px;
+}
+
+.password{
+    top: 140px;
+    left: 405px;
+}
